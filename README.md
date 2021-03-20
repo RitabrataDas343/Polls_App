@@ -59,3 +59,5 @@ ReviewBook uses the following technologies:
 + Python(Django)
 
 If you want to contribute to this project, then you are very much welcome.
+
+I want to acknowledge the efforts of my seniors to encourage me for doing this project.
