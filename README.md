@@ -1,2 +1,61 @@
-# Polls_App
-This is a polls app made in Django.
+# Polls App
+
+![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)<br>
+This app will allow to submit questions and choices, and creating polls of your own.
+
+##  Starting the Project
+
+
+1. Clone the project in the virtual environment directory.
+
+    ```
+    git clone https://github.com/RitabrataDas343/Polls_App.git
+
+    ```
+
+2. Create a **virtual environment** with venv (install virtualenv, if its not installed).
+
+    ```
+    python3 -m venv env
+
+    ```
+
+3. Activate the virtual environemnt.
+    ```
+    source env/bin/activate
+
+    ```
+    
+4. Install the requirements.
+
+    ```
+    cd pollsapp
+    pip install -r requirements.txt
+
+    ```
+
+
+5. Run the Migrations
+    ```
+    python manage.py makemigrations
+
+    python manage.py migrate
+
+    ```
+6. Run the development server
+    ```
+    python manage.py runserver
+
+    ```
+7. Head to server http://localhost:8000
+
+8. Create your own polls and have a great fun!!!
+
+## For contributors
+
+ReviewBook uses the following technologies:
+
++ HTML/CSS
++ Python(Django)
+
+If you want to contribute to this project, then you are very much welcome.
