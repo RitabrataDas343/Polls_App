@@ -30,21 +30,21 @@ This app will allow to submit questions and choices, and creating polls of your 
 
     ```
     cd pollsapp
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
     ```
 
 
 5. Run the Migrations
     ```
-    python manage.py makemigrations
+    python3 manage.py makemigrations
 
-    python manage.py migrate
+    python3 manage.py migrate
 
     ```
 6. Run the development server
     ```
-    python manage.py runserver
+    python3 manage.py runserver
 
     ```
 7. Head to server http://localhost:8000
@@ -53,7 +53,7 @@ This app will allow to submit questions and choices, and creating polls of your 
 
 ## For contributors
 
-ReviewBook uses the following technologies:
+This app uses the following technologies:
 
 + HTML/CSS
 + Python(Django)
