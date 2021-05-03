@@ -1,0 +1,49 @@
+{% load static %}
+
+<style type = "text/css">
+li a {
+    color: purple;
+    font-weight: bold;
+    font-size: 20;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flexbox;
+}
+
+body {
+    background:#f7ba5b;
+    display: flexbox;
+}
+
+.pass {   
+  background-color: black;
+  width: 1000px;
+  height: 90px;
+  border: 10px solid rgb(5, 104, 54);
+  padding: 15px;
+  margin: 20px;
+  display: flexbox;
+}
+</style>
+
+<body>
+<h1 style="text-align: center; background-color: dodgerblue;">QUESTIONS</h1>
+<br>
+<div class="pass">
+    <p><strong style="color: yellowgreen;">Important Note:<br> </strong> <b style="color: white;">The questions are provided below. Click on the question to give your vote. <br> New questions appear on top.<br> 
+       </p>
+</div>
+<br>
+<div class = "ques">
+{% if latest_question_list %}
+<ul>
+{% for question in latest_question_list %}
+<li><a href = "{% url 'polls:detail' question.id %}"> {{ question.question_text }} </a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p> No polls are available. </p>
+{% endif %}
+</div>
+</body>
+
+
