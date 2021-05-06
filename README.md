@@ -29,7 +29,6 @@ This app will allow to submit questions and choices, and creating polls of your 
 4. Install the requirements.
 
     ```
-    cd pollsapp
     pip3 install -r requirements.txt
 
     ```
