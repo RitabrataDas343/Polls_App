@@ -55,6 +55,7 @@ This app will allow to submit questions and choices, and creating polls of your 
 This app uses the following technologies:
 
 + HTML/CSS
++ Bootstrap
 + Python(Django)
 
 If you want to contribute to this project, then you are very much welcome.
